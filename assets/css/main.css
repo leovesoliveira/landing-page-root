@@ -305,3 +305,47 @@ img {
 .pricing img {
   width: 150px;
 }
+
+/*##################################################
+  FOOTER SECTION
+##################################################*/
+
+.footer {
+  padding: 50px 0;
+}
+.footer > .container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__infos {
+  flex: 0 1 41%;
+}
+.footer__infos img {
+  margin: 0 0 15px;
+  width: 30px;
+}
+.footer__infos p {
+  color: #848484;
+  font-size: 14px;
+  margin: 0;
+  padding: 10px 0;
+}
+.footer__menu {
+  display: flex;
+  flex: 0 1 32%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 111px;
+}
+.footer__menu-item {
+  color: #454545;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 0;
+  display: inline-block;
+}
+.footer__menu-item:hover {
+  color: #41CD52;
+  text-decoration: none;
+}
