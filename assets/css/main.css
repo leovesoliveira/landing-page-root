@@ -1,3 +1,73 @@
 body {
   font-family: 'Nunito', sans-serif;
+  color: #333333;
+}
+
+.btn-featured {
+  background: #41CD52;
+  border-radius: 3px;
+  box-shadow: 0 10px 30px rgba(65,205,82,.5);
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 24px;
+}
+.btn-featured:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/*##################################################
+  HEADER
+##################################################*/
+.header {
+  padding: 15px;
+}
+.header > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  color: #41CD52;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 15px;
+  margin: 0;
+  text-transform: lowercase;
+}
+.header__logo a {
+  color: inherit;
+}
+.header__logo a:hover {
+  text-decoration: none;
+}
+
+.header__menu-item {
+  color: #b3b3b3;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px;
+  display: inline-block;
+}
+.header__menu-item:hover {
+  color: #41CD52;
+  text-decoration: none;
+}
+.header__buy-btn {
+  background: #41CD52;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(65,205,82,.5);
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 0 24px;
+  padding: 8px 24px;
+}
+.header__buy-btn:hover {
+  text-decoration: none;
+  color: #FFFFFF;
 }
