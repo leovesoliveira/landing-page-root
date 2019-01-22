@@ -72,6 +72,10 @@ img {
   text-decoration: none;
 }
 
+.header__menu {
+  display: flex;
+  align-items: center;
+}
 .header__menu-item {
   color: #b3b3b3;
   font-size: 15px;
@@ -99,6 +103,27 @@ img {
   color: #FFFFFF;
 }
 
+.hamburger-menu {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .header > .container {
+    padding: 0 15px;
+  }
+  .header__menu-list {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+    margin: 0 15px 0 30px;
+    width: 30px;
+  }
+  .hamburger-menu svg {
+    fill: #41CD52;
+  }
+}
+
 /*##################################################
   INTRO SECTION
 ##################################################*/
@@ -123,6 +148,17 @@ img {
   font-size: 14px;
 }
 
+@media (max-width: 767.98px) {
+  .intro {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .intro__wrapper-1,
+  .intro__wrapper-2 {
+    flex: 0 1 100%;
+  }
+}
+
 /*##################################################
   SPECS SECTION
 ##################################################*/
@@ -144,6 +180,17 @@ img {
 }
 .specs p {
   font-size: 16px;
+}
+
+@media (max-width: 767.98px) {
+  .specs {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .specs__wrapper-1,
+  .specs__wrapper-2 {
+    flex: 0 1 100%;
+  }
 }
 
 /*##################################################
@@ -188,6 +235,19 @@ img {
   margin: 20px 0;
 }
 
+@media (max-width: 767.98px) {
+  .features {
+    flex-direction: column;
+  }
+  .features__wrapper {
+    flex: 0 1 100%;
+    padding: 15px;
+  }
+  .features__wrapper.video {
+    padding: 100px 0;
+  }
+}
+
 /*##################################################
   REVIEWS SECTION
 ##################################################*/
@@ -217,6 +277,15 @@ img {
   margin: 0;
   padding: 10px 0;
   text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  .reviews {
+    padding: 50px 15px;
+  }
+  .reviews__wrapper {
+    flex: 0 1 100%;
+  }
 }
 
 /*##################################################
@@ -253,6 +322,16 @@ img {
   color: #FFFFFF;
   font-size: 14px;
   margin: 0 0 20px;
+}
+
+@media (max-width: 767.98px) {
+  .why-you-need {
+    background: #060606;
+    padding: 50px 15px;
+  }
+  .why-you-need__wrapper {
+    flex: 0 1 100%;
+  }
 }
 
 /*##################################################
@@ -320,6 +399,16 @@ img {
   width: 150px;
 }
 
+@media (max-width: 767.98px) {
+  .pricing {
+    background: #FFFFFF;
+    padding: 50px 15px;
+  }
+  .pricing__wrapper {
+    flex: 0 1 100%;
+  }
+}
+
 /*##################################################
   FOOTER SECTION
 ##################################################*/
@@ -362,4 +451,16 @@ img {
 .footer__menu-item:hover {
   color: #41CD52;
   text-decoration: none;
+}
+
+@media (max-width: 767.98px) {
+  .footer > .container {
+    flex-direction: column;
+  }
+  .footer__infos,
+  .footer__menu {
+    width: 100%;
+    flex: 0 1 100%;
+    padding: 0 15px;
+  }
 }

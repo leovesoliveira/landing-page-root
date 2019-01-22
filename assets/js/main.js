@@ -11,13 +11,13 @@ window.addEventListener('scroll', function(){
 
 document.querySelector('body').addEventListener('click', function (e) {
   if (e.target.classList.contains('jump-to')) {
-      e.preventDefault();
+    e.preventDefault();
 
-      Jump(
-          e.target.getAttribute("href"),
-          {
-              offset: -55
-          }
-      );
+    Jump(
+      e.target.getAttribute("href"),
+      {
+        offset: -55
+      }
+    );
   }
 });
