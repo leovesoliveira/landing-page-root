@@ -204,3 +204,39 @@ img {
   padding: 10px 0;
   text-align: center;
 }
+
+/*##################################################
+  WHY YOU NEED SECTION
+##################################################*/
+
+.why-you-need {
+  background-image: url('../images/cta.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0;
+}
+.why-you-need > .container {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.why-you-need__wrapper {
+  flex: 0 1 45%;
+}
+.why-you-need span {
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+}
+.why-you-need h2 {
+  color: #FFFFFF;
+  font-size: 28px;
+  margin: 0 0 20px;
+}
+.why-you-need p {
+  color: #FFFFFF;
+  font-size: 14px;
+  margin: 0 0 20px;
+}
