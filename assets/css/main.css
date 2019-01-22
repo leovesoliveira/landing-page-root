@@ -1,6 +1,19 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
 body {
   font-family: 'Nunito', sans-serif;
   color: #333333;
+}
+img {
+  width: 100%;
 }
 
 .btn-featured {
@@ -70,4 +83,28 @@ body {
 .header__buy-btn:hover {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+/*##################################################
+  INTRO SECTION
+##################################################*/
+
+.intro {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.intro__wrapper-1 {
+  flex: 0 1 35%;
+}
+.intro__wrapper-2 {
+  flex: 0 1 55%;
+}
+.intro h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.intro p {
+  font-size: 14px;
 }
